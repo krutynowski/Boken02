@@ -88,3 +88,25 @@ input{
   color:#534F9F;
 }
 
+/*TODO:
+Create seperate mountain image for ipad */
+
+/*iPad*/
+ @media screen and (min-width : 768px) {
+
+#signUp{
+  position: relative;
+  z-index: 1;
+  top: 47%;
+}
+ }
+
+/*large screens*/
+ @media screen and (min-width : 1024px) { 
+
+  }
+
+/*extra large screen*/
+  @media screen and (min-width : 1280px) { 
+
+  }
