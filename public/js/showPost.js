@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  console.log('sanity check!');
+  //console.log('sanity check!');
   var liked = false;
   var $btnLike = $('#btnLike');
 

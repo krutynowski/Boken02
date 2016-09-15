@@ -16,11 +16,15 @@ Build a full crud web-app using a new technology in 4 days with a team of 4
 Jade, CSS,JQuery, framework 7, Node.js, Knex.js, Express.js, GIt/Github, SQL, UploadCare, Affinity Designer & Photo
 
 #My Responsibilities
-Mock, design concept and components, wireframe, UI/UX, and front end development, website
+Mock, design concept and components, wireframe, UI/UX, and front end development, website.
+
 Since the project was submitted I have been working on implementing media queries, and adding finishing touches to improve the UX and look of the app.
  
     
-
+####TODO:
+-Change all icons to match the branding.
+-Update typography, font and color profile.
+-Implement media queries. 
 
 
 

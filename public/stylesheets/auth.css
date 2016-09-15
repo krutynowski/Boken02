@@ -8,6 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   /*position:relative;
+
   z-index: 1;*/
 }
 
@@ -25,6 +26,7 @@
   top: 0;
   left: 0;
   z-index: -1;
+
 }
 
 /*login buttons*/
@@ -89,24 +91,36 @@ input{
 }
 
 /*TODO:
-Create seperate mountain image for ipad */
+Create separate mountain image for ipad etc */
 
-/*iPad*/
+/*iPad portrait*/
  @media screen and (min-width : 768px) {
+  #mountain{ 
+    content:url("http://i.imgur.com/aZXBDbX.png") !important;
+    /*z-index: 10;*/
+  }
 
-#signUp{
-  position: relative;
-  z-index: 1;
-  top: 47%;
-}
+  #signUp{
+    position: relative;
+    z-index: 1;
+    top: 47%;
+  }
  }
 
-/*large screens*/
+/*iPad Landscape large screens*/
  @media screen and (min-width : 1024px) { 
+  #mountain{
+      content:url("http://i.imgur.com/Hp2KIvwg.png" )!important;
+      /*z-index: 10;*/
+   }
+}
 
-  }
 
-/*extra large screen*/
+
+/*desktop*/
   @media screen and (min-width : 1280px) { 
-
+    #mountain{
+      content:url("http://i.imgur.com/5rlTV9c.png") !important;
+      z-index: 10;
   }
+}
