@@ -29,7 +29,7 @@
 
 }
 
-/*login buttons*/
+/*login buttons my auth*/
 .BTN{
   width: 100%;
 }
@@ -40,25 +40,20 @@
   top: 39%;
 }
 
-#pass{
-  position: absolute;
-  z-index: 3;
-  top: 65px;
-}
 
-#loginFB {
+#loginFB{
   position: absolute;
   z-index: 4;
   top: 158px;
 }
 
-#loginG {
+#loginG{
   position: absolute;
   z-index: 5;
   top: 210px;
 }
 
-.loginOUR {
+.loginOUR{
   background-color:rgba(255,255,255, 0.3);
   border: 1px solid rgba(255,255,255, 0.1);
   border-radius: 9px;
@@ -68,14 +63,17 @@
   margin-left: 11.5%;
 }
 
+/*user name*/
 #UN {  
   margin-top: 10%
 }
 
+/*user password*/
 #UP {
   margin-top: 3%
-
 }
+
+/*LOG IN OR SIGN UP*/
 #LI {
   margin-top: 3%;
   margin-left: 31%;
@@ -96,19 +94,33 @@ Create separate mountain image for ipad etc */
     content:url("http://i.imgur.com/aZXBDbX.png") !important;  
   }
 
-  #signUp{
-    position: relative;
-    
-  }
+ /* #signUp{
+  position: relative;
+  z-index: 1;
+  top: 39%;
+  padding-left: 20%
+}*/
+
 }  
 
 /*iPad portrait*/
- @media screen and (min-width : 768px) {
-  #mountain{ 
+ @media screen and (min-width : 767px) {
+  #mountain { 
     content:url("http://i.imgur.com/aZXBDbX.png") !important;   
   }
+
+    /*#signUp{
+    margin-left: 30%;*/
+  }
+
+  #user {
+    width: 50%;
+    margin-left: 25%
+  }
+
   .BTN {
-  width: 100%;
+    width: 50%;
+    margin-left: 25%
   }
  
  }
