@@ -87,8 +87,7 @@ input{
   color:#534F9F;
 }
 
-/*TODO:
-Create separate mountain image for ipad etc */
+
 @media screen and (min-width : 480px) {
   #mountain{ 
     content:url("http://i.imgur.com/aZXBDbX.png") !important;  
@@ -115,12 +114,12 @@ Create separate mountain image for ipad etc */
 
   #user {
     width: 50%;
-    margin-left: 25%
+    margin-left: 24.4%
   }
 
   .BTN {
-    width: 50%;
-    margin-left: 25%
+    width: 51.5%;
+    margin-left: 24.4%
   }
  
  }
