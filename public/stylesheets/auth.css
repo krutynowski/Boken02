@@ -46,19 +46,19 @@
   top: 65px;
 }
 
-#loginFB{
+#loginFB {
   position: absolute;
   z-index: 4;
   top: 158px;
 }
 
-#loginG{
+#loginG {
   position: absolute;
   z-index: 5;
   top: 210px;
 }
 
-.loginOUR{
+.loginOUR {
   background-color:rgba(255,255,255, 0.3);
   border: 1px solid rgba(255,255,255, 0.1);
   border-radius: 9px;
@@ -68,16 +68,15 @@
   margin-left: 11.5%;
 }
 
-#UN{
-  
+#UN {  
   margin-top: 10%
 }
 
-#UP{
+#UP {
   margin-top: 3%
 
 }
-#LI{
+#LI {
   margin-top: 3%;
   margin-left: 31%;
   
@@ -92,35 +91,40 @@ input{
 
 /*TODO:
 Create separate mountain image for ipad etc */
-
-/*iPad portrait*/
- @media screen and (min-width : 768px) {
+@media screen and (min-width : 480px) {
   #mountain{ 
-    content:url("http://i.imgur.com/aZXBDbX.png") !important;
-    /*z-index: 10;*/
+    content:url("http://i.imgur.com/aZXBDbX.png") !important;  
   }
 
   #signUp{
     position: relative;
-    z-index: 1;
-    top: 47%;
+    
   }
+}  
+
+/*iPad portrait*/
+ @media screen and (min-width : 768px) {
+  #mountain{ 
+    content:url("http://i.imgur.com/aZXBDbX.png") !important;   
+  }
+  .BTN {
+  width: 100%;
+  }
+ 
  }
 
 /*iPad Landscape large screens*/
  @media screen and (min-width : 1024px) { 
-  #mountain{
+    #mountain{
       content:url("http://i.imgur.com/Hp2KIvwg.png" )!important;
-      /*z-index: 10;*/
+      
    }
 }
 
-
-
 /*desktop*/
   @media screen and (min-width : 1280px) { 
-    #mountain{
-      content:url("http://i.imgur.com/5rlTV9c.png") !important;
-      z-index: 10;
+  #mountain{
+      content:url("http://i.imgur.com/w7zkDEi.png") !important;
+      
   }
 }
